@@ -1,4 +1,7 @@
 FinanceTracker::Application.routes.draw do
+
+  root to: 'welcome#index'
+  get '/url' , to: 'welcome#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
